@@ -12,8 +12,8 @@ $(function() {
         verified_user: 'Claim the business'
     }
     var position = {
-        lat: 37.773972,
-        lng: -122.43129
+        lat: 42.279594,
+        lng: -83.732124
     };
 
     var current_infowindow;
