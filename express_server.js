@@ -7,10 +7,6 @@ var GOOGLE_KEY = 'AIzaSyDMHhUmJYxgR9e4ZZ_OHW18r7D4fJVDrfc';
 var places_url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json';
 
 app.get('/', function(req, res) {
-    res.send('hello world');
-});
-
-app.get('/nearbysearch', function(req, res) {
     res.sendFile(path.join(__dirname + '/templates/nearby_search.html'));
 });
 
